@@ -1,0 +1,58 @@
+.header {
+    background-color: #da291c;
+    border-bottom: 2px solid #b90f03;
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-section {
+    flex: 1;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 16px; /* Add padding to align it properly */
+}
+
+.logo {
+    max-height: 40px; /* Adjust the height as needed */
+}
+
+.nav-center {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link,
+.nav-link-button { /* Apply same styles for both links and button */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+    white-space: nowrap;
+}
+
+.nav-link:hover,
+.nav-link-button:hover { /* Apply hover effect for both links and button */
+    color: #ffffff85;
+}
+
+.spacer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 16px; /* Add padding to balance the logo padding */
+}
